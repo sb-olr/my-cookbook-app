@@ -31,3 +31,22 @@
     border: 1px solid black;
 }
 
+.row{
+    margin-bottom: 1.5rem;
+}
+div[class^="col"]{
+    margin-bottom: 1.2rem;
+}
+.table{
+    --bs-table-hover-bg: #F4F1E8 ;
+    --bs-table-striped-bg: #FFBD59; 
+    cursor: pointer;
+
+}
+.step{
+    border: #FFBD59 1px solid;
+    border-collapse: separate;
+    border-radius: 10px;
+    padding-top: 0.5rem;
+    
+}
