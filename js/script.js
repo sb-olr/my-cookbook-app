@@ -1,5 +1,1 @@
-
-
-const shareIt = (link) => {
-    alert("Share it: " + link);
-}
+// alert("Hello World!");
