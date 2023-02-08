@@ -9,12 +9,10 @@ main{
 }
 
 
-
-
 /* Navbar */
 #nav{
     background-color: #FFBD59;
-    
+   
     
 }
 
@@ -29,7 +27,7 @@ main{
 
 }
 
-/* Carousel section */
+
 
 /* Changes the toggle button default colors */
 .navbar-light .navbar-toggler-icon{
@@ -39,6 +37,10 @@ main{
 .navbar-light .navbar-toggler {
     border: 1px solid black;
 }
+
+/* Carousel section */
+
+
 
 /* Changes the carousel control icons color */
 .carousel-indicators .active{
@@ -51,7 +53,13 @@ main{
 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
-
+/* Removing gutter (padding space of the columns */
+.row {
+    padding: 0;
+}
+.col-sm-12{
+    padding: 0;
+}
 
 
 .intro-text p{

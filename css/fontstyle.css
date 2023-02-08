@@ -43,3 +43,9 @@ p{
     font-weight: 400;
     color: black;
 }
+.carousel-inner img{
+    width: auto;
+    object-fit: cover;
+    height: 30em;
+
+}
