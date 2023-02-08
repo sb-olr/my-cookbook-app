@@ -32,6 +32,7 @@
 }
 
 
+
 h1{
     font-size: 50px;
     text-align: center;
@@ -41,3 +42,9 @@ h1{
     margin-top: 70px;
     margin-bottom: 20px;
 }
+
+main{
+    padding-top: 5em;
+    
+}
+
