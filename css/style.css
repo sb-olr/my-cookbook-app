@@ -3,7 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+main{
+    padding-top: 5em;
+    
+}
 
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: #FFBD59;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+
+/* Navbar */
 #nav{
     background-color: #FFBD59;
     
@@ -21,6 +37,7 @@
 
 }
 
+/* Carousel section */
 
 /* Changes the toggle button default colors */
 .navbar-light .navbar-toggler-icon{
@@ -30,24 +47,6 @@
 .navbar-light .navbar-toggler {
     border: 1px solid black;
 }
-
-
-
-h1{
-    font-size: 50px;
-    text-align: center;
-    color: #FFBD59;
-    font-family: 'Lobster', cursive;
-    font-weight: bold;
-    margin-top: 70px;
-    margin-bottom: 20px;
-}
-
-main{
-    padding-top: 5em;
-    
-}
-
 
 /* Changes the carousel control icons color */
 .carousel-indicators .active{
@@ -59,4 +58,19 @@ main{
 }
 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-  }
+}
+
+.intro-text h1{
+    font-size: 3em;
+    text-align: center;
+    color: #c22d22;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.intro-text p{
+    font-size: 2em;
+    text-align: center;
+}
