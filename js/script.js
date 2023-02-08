@@ -1,1 +1,5 @@
-// alert("Hello World!");
+
+
+const shareIt = (link) => {
+    alert("Share it: " + link);
+}
