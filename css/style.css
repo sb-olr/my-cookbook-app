@@ -30,3 +30,14 @@
 .navbar-light .navbar-toggler {
     border: 1px solid black;
 }
+
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: #FFBD59;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
