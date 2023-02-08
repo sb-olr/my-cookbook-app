@@ -25,12 +25,33 @@
 /* Changes the toggle button default colors */
 .navbar-light .navbar-toggler-icon{
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
-    
 }
+
 .navbar-light .navbar-toggler {
     border: 1px solid black;
 }
 
+.row{
+    margin-bottom: 1.5rem;
+}
+
+div[class^="col"]{
+    margin-bottom: 1.2rem;
+}
+
+.table{
+    --bs-table-hover-bg: #F4F1E8 ;
+    --bs-table-striped-bg: #FFBD59; 
+    cursor: pointer;
+
+}
+
+.step{
+    border: #FFBD59 1px solid;
+    border-collapse: separate;
+    border-radius: 10px;
+    padding-top: 0.5rem;
+    
 
 h1{
     font-size: 50px;
