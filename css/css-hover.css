@@ -1,0 +1,49 @@
+/* src: https://www.w3docs.com/snippets/css/how-to-display-an-animated-text-over-an-image-on-hover-using-only-css3.html */
+.hover {
+cursor: pointer;
+height: 100%;
+position: relative;
+overflow: hidden;
+width: 100%;
+text-align: center;
+}
+.hover .fadedbox {
+background-color: #666666;
+position: absolute;
+top: 0;
+left: 0;
+color: #fff;
+-webkit-transition: all 300ms ease-out;
+-moz-transition: all 300ms ease-out;
+-o-transition: all 300ms ease-out;
+-ms-transition: all 300ms ease-out;
+transition: all 300ms ease-out;
+opacity: 0;
+width: 100%;
+height: 100%;
+padding: 130px 20px;
+}
+.hover:hover .fadedbox {
+opacity: 0.5;
+}
+.hover .text {
+-webkit-transition: all 300ms ease-out;
+-moz-transition: all 300ms ease-out;
+-o-transition: all 300ms ease-out;
+-ms-transition: all 300ms ease-out;
+transition: all 300ms ease-out;
+transform: translateY(30px);
+-webkit-transform: translateY(30px);
+}
+.hover .title {
+font-size: 1.6em;
+opacity: 0;
+transition-delay: 0.2s;
+transition-duration: 0.3s;
+}
+.hover:hover .title,
+.hover:focus .title {
+opacity: 1;
+transform: translateY(0px);
+-webkit-transform: translateY(0px);
+}
