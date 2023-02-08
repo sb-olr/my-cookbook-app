@@ -69,38 +69,89 @@
     </header>
     <main>
       <section>section1_carousel + welcome text + description</section>
-      <section id="cards">
-        <h1>Recipes</h1>
-        <div class="card" style="width: 18rem">
-          <img src="img/1r.png" class="card-img-top" alt="Yummy" />
-          <div class="card-body">
-            <h5 class="card-title">Yummy Red Velvet</h5>
-            <p class="card-text">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam!
-            </p>
-            <a href="recipe1.html" class="btn btn-primary">View recipe</a>
+      <section id="cards" class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <h1>Recipes</h1>
           </div>
         </div>
-        <div class="card" style="width: 18rem">
-          <img src="img/2r.png" class="card-img-top" alt="Yummy" />
-          <div class="card-body">
-            <h5 class="card-title">Black Forest</h5>
-            <p class="card-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-              dolores voluptas!
-            </p>
-            <a href="recipe2.html" class="btn btn-primary">View recipe</a>
+        <div class="row d-flex justify-content-center">
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+            <div class="card text-center" style="width: 100%">
+              <img src="img/1r.png" class="card-img-top" alt="Yummy" />
+              <div class="card-body">
+                <h5 class="card-title">Peach Passion Fruit Cake</h5>
+                <p class="card-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Ipsam!
+                </p>
+                <div class="d-inline-flex d-grid gap-2 justify-content-center">
+                  <a href="recipe1.html"
+                    ><button class="btn btn-lg btn-warning">
+                      View it!
+                    </button></a
+                  >
+                  <button
+                    class="btn btn-lg btn-outline-warning"
+                    onclick="alertMe()"
+                  >
+                    Share it!
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="card" style="width: 18rem">
-          <img src="img/3r.png" class="card-img-top" alt="Yummy" />
-          <div class="card-body">
-            <h5 class="card-title">Apfel Strudel</h5>
-            <p class="card-text">
-              Repudiandae, quas eveniet consequatur culpa? Ipsa similique
-              inventore porro, pariatur beatae alias facilis laborum.
-            </p>
-            <a href="recipe3.html" class="btn btn-primary">View recipe</a>
+
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+            <div class="card text-center" style="width: 100%">
+              <img src="img/2r.png" class="card-img-top" alt="Yummy" />
+              <div class="card-body">
+                <h5 class="card-title">Blueberry cupcakes</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quibusdam dolores voluptas!
+                </p>
+                <div class="d-inline-flex d-grid gap-2 justify-content-center">
+                  <a href="recipe1.html"
+                    ><button class="btn btn-lg btn-warning">
+                      View it!
+                    </button></a
+                  >
+                  <button
+                    class="btn btn-lg btn-outline-warning"
+                    onclick="alertMe()"
+                  >
+                    Share it!
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3">
+            <div class="card text-center" style="width: 100%">
+              <img src="img/3r.png" class="card-img-top" alt="Yummy" />
+              <div class="card-body">
+                <h5 class="card-title">Strawberry and chocolate cake</h5>
+                <p class="card-text">
+                  Repudiandae, quas eveniet consequatur culpa? Ipsa similique
+                  inventore porro, pariatur beatae alias facilis laborum.
+                </p>
+                <div class="d-inline-flex d-grid gap-2 justify-content-center">
+                  <a href="recipe1.html"
+                    ><button class="btn btn-lg btn-warning">
+                      View it!
+                    </button></a
+                  >
+                  <button
+                    class="btn btn-lg btn-outline-warning"
+                    onclick="alertMe()"
+                  >
+                    Share it!
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
