@@ -3,8 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 main {
   padding-top: 5em;
+  background-image: url("../img/muffin.png");
+  background-repeat: repeat;
 }
 
 /* Navbar */
@@ -45,7 +48,7 @@ main {
 /* Removing gutter (padding space of the columns */
 .row {
   padding: 0;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 .col-sm-12 {
   padding: 0;
@@ -65,6 +68,7 @@ div[class^="col"] {
 .table {
   --bs-table-hover-bg: #f4f1e8;
   --bs-table-striped-bg: #ffbd59;
+  --bs-table-accent-bg: white;
   cursor: pointer;
 }
 
@@ -73,10 +77,21 @@ div[class^="col"] {
   border-collapse: separate;
   border-radius: 10px;
   padding: 0.5rem;
+  background-color: white;
 }
 .some-margin {
   padding: 1rem;
 }
 .card:hover {
   outline: 3px solid #ffbd59;
+}
+.carousel-inner img{
+    width: auto;
+    object-fit: cover;
+    height: 30em;
+
+}
+.input-group-text{
+    background-color: #ffbd59;
+    border: 1px solid #ffbd59;
 }
