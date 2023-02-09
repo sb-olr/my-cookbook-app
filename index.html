@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="img/logo.png" />
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
@@ -112,7 +119,7 @@
                     <div class="carousel-item active">
                       <img
                         src="img/1c.png"
-                        class="d-block w-100 "
+                        class="d-block w-100"
                         alt="slide 1"
                         style="height: auto; width: 100%"
                       />
@@ -120,7 +127,7 @@
                     <div class="carousel-item" id="carosel-item">
                       <img
                         src="img/2c-fixed.png"
-                        class="d-block w-100 "
+                        class="d-block w-100"
                         alt="slide 2"
                         style="height: auto; width: 100%"
                       />
@@ -128,7 +135,7 @@
                     <div class="carousel-item">
                       <img
                         src="img/3c.png"
-                        class="d-block w-100 "
+                        class="d-block w-100"
                         alt="slide 3"
                         style="height: auto; width: 100%"
                       />
@@ -136,7 +143,7 @@
                     <div class="carousel-item">
                       <img
                         src="img/4c.png"
-                        class="d-block w-100 "
+                        class="d-block w-100"
                         alt="slide 3"
                         style="height: auto; width: 100%"
                       />
@@ -182,38 +189,57 @@
       </section>
 
       <section id="cards">
-        <h2 class="text-center">Recipes</h2>
         <div class="container-fluid">
           <div class="row justify-content-center">
             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 some-margin">
               <div class="card text-center" style="width: 100%">
                 <div class="hover">
-                  <img src="img/1r.png" class="card-img-top" alt="Yummy" />
+                  <img
+                    src="img/1r.png"
+                    class="card-img-top"
+                    alt="Peach & Passion Fruit Cake"
+                  />
                   <a href="recipe1.html">
                     <div class="fadedbox">
-                      <div class="title text">Peach Passion Fruit Cake</div>
+                      <div class="title text">Peach & Passion Fruit Cake</div>
                     </div>
                   </a>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Peach Passion Fruit Cake</h5>
+                  <h5 class="card-title">Peach & Passion Fruit Cake</h5>
                   <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quibusdam dolores voluptas!
+                    A fruity and delicious cake! Perfect for summer!
                   </p>
                   <div
                     class="d-inline-flex d-grid gap-2 justify-content-center"
                   >
-                    <a href="recipe1.html"
-                      ><button class="btn btn-lg btn-warning">
-                        View it!
-                      </button></a
-                    >
+                    <a href="recipe1.html">
+                      <button
+                        class="btn btn-lg btn-outline-warning"
+                        data-bs-toggle-tt="tooltip"
+                        data-bs-placement="bottom"
+                        title="View recipe"
+                      >
+                        <i class="fa-sharp fa-solid fa-eye"></i></button
+                    ></a>
                     <button
                       class="btn btn-lg btn-outline-warning"
-                      onclick="alertMe()"
+                      data-bs-toggle-tt="tooltip"
+                      data-bs-placement="bottom"
+                      title="Save it!"
                     >
-                      Share it!
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button
+                      class="btn btn-lg btn-outline-warning"
+                      data-bs-toggle-tt="tooltip"
+                      data-bs-placement="bottom"
+                      data-bs-toggle="modal"
+                      data-bs-target="#sharingModal"
+                      title="Share it!"
+                      onclick="shareIt('recipe1.html', 'Peach & Passion Fruit Cake')"
+                    >
+                      <i class="fa-solid fa-share-nodes"></i>
                     </button>
                   </div>
                 </div>
@@ -223,32 +249,52 @@
             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 some-margin">
               <div class="card text-center" style="width: 100%">
                 <div class="hover">
-                  <img src="img/2r.png" class="card-img-top" alt="Yummy" />
+                  <img
+                    src="img/3r.png"
+                    class="card-img-top"
+                    alt="Blueberry Cupcakes"
+                  />
                   <a href="recipe2.html">
                     <div class="fadedbox">
-                      <div class="title text">Blueberry cupcakes</div>
+                      <div class="title text">Blueberry Cupcakes</div>
                     </div>
                   </a>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Blueberry cupcakes</h5>
+                  <h5 class="card-title">Blueberry Cupcakes</h5>
                   <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quibusdam dolores voluptas!
+                    Delicious with cream and a super food!
                   </p>
                   <div
                     class="d-inline-flex d-grid gap-2 justify-content-center"
                   >
-                    <a href="recipe2.html"
-                      ><button class="btn btn-lg btn-warning">
-                        View it!
-                      </button></a
-                    >
+                    <a href="recipe2.html">
+                      <button
+                        class="btn btn-lg btn-outline-warning"
+                        data-bs-toggle-tt="tooltip"
+                        data-bs-placement="bottom"
+                        title="View recipe"
+                      >
+                        <i class="fa-sharp fa-solid fa-eye"></i></button
+                    ></a>
                     <button
                       class="btn btn-lg btn-outline-warning"
-                      onclick="alertMe()"
+                      data-bs-toggle-tt="tooltip"
+                      data-bs-placement="bottom"
+                      title="Save it!"
                     >
-                      Share it!
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button
+                      class="btn btn-lg btn-outline-warning"
+                      data-bs-toggle-tt="tooltip"
+                      data-bs-placement="bottom"
+                      data-bs-toggle="modal"
+                      data-bs-target="#sharingModal"
+                      title="Share it!"
+                      onclick="shareIt('recipe2.html', 'Blueberry Cupcakes')"
+                    >
+                      <i class="fa-solid fa-share-nodes"></i>
                     </button>
                   </div>
                 </div>
@@ -258,32 +304,50 @@
             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 some-margin">
               <div class="card text-center" style="width: 100%">
                 <div class="hover">
-                  <img src="img/3r.png" class="card-img-top" alt="Yummy" />
+                  <img
+                    src="img/2r.png"
+                    class="card-img-top"
+                    alt="Strawberry & Chocolate Cake"
+                  />
                   <a href="recipe3.html">
                     <div class="fadedbox">
-                      <div class="title text">Strawberry and chocolate cake</div>
+                      <div class="title text">Strawberry & Chocolate Cake</div>
                     </div>
                   </a>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Strawberry and chocolate cake</h5>
-                  <p class="card-text">
-                    Repudiandae, quas eveniet consequatur culpa? Ipsa similique
-                    inventore porro, pariatur beatae alias facilis laborum.
-                  </p>
+                  <h5 class="card-title">Strawberry & Chocolate Cake</h5>
+                  <p class="card-text">Tastes like heaven!</p>
                   <div
                     class="d-inline-flex d-grid gap-2 justify-content-center"
                   >
-                    <a href="recipe3.html"
-                      ><button class="btn btn-lg btn-warning">
-                        View it!
-                      </button></a
-                    >
+                    <a href="recipe3.html">
+                      <button
+                        class="btn btn-lg btn-outline-warning"
+                        data-bs-toggle-tt="tooltip"
+                        data-bs-placement="bottom"
+                        title="View recipe"
+                      >
+                        <i class="fa-sharp fa-solid fa-eye"></i></button
+                    ></a>
                     <button
                       class="btn btn-lg btn-outline-warning"
-                      onclick="alertMe()"
+                      data-bs-toggle-tt="tooltip"
+                      data-bs-placement="bottom"
+                      title="Save it!"
                     >
-                      Share it!
+                      <i class="fa-regular fa-heart"></i>
+                    </button>
+                    <button
+                      class="btn btn-lg btn-outline-warning"
+                      data-bs-toggle-tt="tooltip"
+                      data-bs-placement="bottom"
+                      data-bs-toggle="modal"
+                      data-bs-target="#sharingModal"
+                      title="Share it!"
+                      onclick="shareIt('recipe3.html', 'Strawberry & Chocolate Cake')"
+                    >
+                      <i class="fa-solid fa-share-nodes"></i>
                     </button>
                   </div>
                 </div>
@@ -293,5 +357,38 @@
         </div>
       </section>
     </main>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="sharingModal"
+      tabindex="-1"
+      aria-labelledby="sharingModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="sharingModalLabel">Modal title</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">...</div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
