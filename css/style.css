@@ -85,13 +85,12 @@ div[class^="col"] {
 .card:hover {
   outline: 3px solid #ffbd59;
 }
-.carousel-inner img{
-    width: auto;
-    object-fit: cover;
-    height: 30em;
-
+.carousel-inner img {
+  width: auto;
+  object-fit: cover;
+  height: 30em;
 }
-.input-group-text{
-    background-color: #ffbd59;
-    border: 1px solid #ffbd59;
+.input-group-text {
+  background-color: #ffbd59;
+  border: 1px solid #ffbd59;
 }
