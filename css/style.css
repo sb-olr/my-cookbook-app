@@ -3,11 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background-image: url("../img/muffin.png");
+  background-repeat: repeat;
+}
 
 main {
   padding-top: 5em;
-  background-image: url("../img/muffin.png");
-  background-repeat: repeat;
 }
 
 /* Navbar */
@@ -93,4 +95,15 @@ div[class^="col"] {
 .input-group-text {
   background-color: #ffbd59;
   border: 1px solid #ffbd59;
+}
+.form-control{
+  border: 2px solid #ffbd59;
+}
+.footerBg{
+  background-color: rgba(3, 3, 59, 0.811);
+  padding-top: 1rem;
+  margin-top: 4rem;
+}
+.fa-brands{
+  margin: 0.25rem;
 }
