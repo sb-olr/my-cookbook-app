@@ -18,17 +18,15 @@
 h1{
     font-size: 3em;
     text-align: center;
-    font-family: Lobster;
+    font-family: "Lobster";
     color: #c22d22;
     font-weight: bold;
-    margin-top: 1em;
-    margin-bottom: 1em;
 
 }
 h2{
     font-family: "OpenSans-Light";
-    font-size: 1.5em;
-    font-weight: 200;
+    font-size: 1.75em;
+    font-weight: 300;
     color: black;
 }
 h4{
