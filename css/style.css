@@ -44,8 +44,8 @@ main {
 }
 /* Removing gutter (padding space of the columns */
 .row {
-    padding: 0;
-    margin-bottom: 1.5rem;
+  padding: 0;
+  margin-bottom: 1.5rem;
 }
 .col-sm-12 {
   padding: 0;
@@ -62,10 +62,10 @@ div[class^="col"] {
   margin-bottom: 1.2rem;
 }
 
-.table{
-    --bs-table-hover-bg: #F4F1E8 ;
-    --bs-table-striped-bg: #FFBD59; 
-    cursor: pointer;
+.table {
+  --bs-table-hover-bg: #f4f1e8;
+  --bs-table-striped-bg: #ffbd59;
+  cursor: pointer;
 }
 
 .step {
@@ -74,8 +74,9 @@ div[class^="col"] {
   border-radius: 10px;
   padding: 0.5rem;
 }
-.some-margin{
-    padding: 1rem;
-}.card:hover{
-    outline: 3px solid #ffbd59;
+.some-margin {
+  padding: 1rem;
+}
+.card:hover {
+  outline: 3px solid #ffbd59;
 }
