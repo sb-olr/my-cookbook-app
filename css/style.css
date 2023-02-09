@@ -79,3 +79,7 @@ div[class^="col"] {
 }.card:hover{
     outline: 3px solid #ffbd59;
 }
+
+#search-section {
+max-width: 20em;
+}
