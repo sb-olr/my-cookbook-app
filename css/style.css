@@ -6,7 +6,7 @@
 
 main {
   padding-top: 5em;
-  background-image: url("/img/muffin.png");
+  background-image: url("img/muffin.png");
   background-repeat: repeat;
 }
 
