@@ -56,6 +56,7 @@ main{
 /* Removing gutter (padding space of the columns */
 .row {
     padding: 0;
+    margin-bottom: 1.5rem;
 }
 .col-sm-12{
     padding: 0;
@@ -68,9 +69,6 @@ main{
 }
 
 /* End of top section page 1 */
-.row{
-    margin-bottom: 1.5rem;
-}
 
 div[class^="col"]{
     margin-bottom: 1.2rem;
@@ -80,7 +78,6 @@ div[class^="col"]{
     --bs-table-hover-bg: #F4F1E8 ;
     --bs-table-striped-bg: #FFBD59; 
     cursor: pointer;
-
 }
 
 .step{
@@ -89,4 +86,6 @@ div[class^="col"]{
     border-radius: 10px;
     padding-top: 0.5rem;
 } 
-
+.some-margin{
+    padding: 1rem;
+}
