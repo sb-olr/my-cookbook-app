@@ -72,7 +72,7 @@ div[class^="col"] {
   border: #ffbd59 1px solid;
   border-collapse: separate;
   border-radius: 10px;
-  padding-top: 0.5rem;
+  padding: 0.5rem;
 }
 .some-margin{
     padding: 1rem;

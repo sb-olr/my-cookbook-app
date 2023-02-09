@@ -22,19 +22,59 @@
     <title>Recipe 1</title>
   </head>
   <body>
-    <nav>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </nav>
+    <header>
+      <nav
+        class="navbar navbar-expand-md navbar-light fixed-top py-0 px-0 mx-0 mb-5 mb"
+        id="nav"
+      >
+        <div class="nav container-fluid py-auto">
+          <img
+            class="navbnar-brand"
+            id="navbnar-brand"
+            src="img/logo.png"
+            alt="logo"
+            width="100px"
+            height="80px"
+          />
+          <button
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            class="navbar-toggler mx-5"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle Navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul
+              class="navbar-nav d-flex container-fluid justify-content-end text-center"
+            >
+              <li class="nav-item px-5 pt-3">
+                <a href="" class="nav-link">About us</a>
+              </li>
+              <li class="nav-item px-5 pt-3">
+                <a href="" class="nav-link">Seasonal</a>
+              </li>
+              <li class="nav-item px-5 pt-3">
+                <a href="" class="nav-link">Favourites</a>
+              </li>
+              <li class="nav-item px-5 pt-3">
+                <a href="" class="nav-link">Log-in</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
     <div class="container-fluid">
       <!-- Header image -->
       <div class="row justify-content-center">
-        <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-7">
           <img
-            src="./img/2rb.png"
+            src="./img/3rnew.png"
             class="img-fluid rounded mx-auto"
             style="height: auto; width: 100%"
             alt="peach_passion_fruit_tart"
@@ -45,7 +85,7 @@
       <!-- h1 title -->
       <div class="row">
         <div class="col-12">
-          <h1 class="text-center">Blueberry cupcakes</h1>
+          <h1 class="text-center">Blueberry Cupcakes</h1>
         </div>
       </div>
 
@@ -144,6 +184,7 @@
             </tbody>
           </table>
         </div>
+        </div>
         <!-- steps of the recipe -->
         <div class="row justify-content-center">
           <div class="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-9 text-center">
@@ -203,25 +244,64 @@
           </div>
         </div>
         <div class="row">
-          <div
-            class="d-grid gap-2 col-sm-6 col-md-6 d-lg-block col-lg-6 d-xl-flex justify-content-xl-center col-xl-9 mx-auto"
-          >
-            <button type="button" class="btn btn-outline-warning btn-lg">
-              favourite
+          <div class="d-inline-flex d-grid gap-2 justify-content-center">
+            <button
+              class="btn btn-lg btn-outline-warning"
+              data-bs-toggle-tt="tooltip"
+              data-bs-placement="bottom"
+              title="Save it!"
+            >
+              <i class="fa-regular fa-heart"></i>
             </button>
             <button
-              onclick="alertMe()"
-              type="button"
-              class="btn btn-primary btn-warning btn-lg shareButton"
+              class="btn btn-lg btn-outline-warning"
+              data-bs-toggle-tt="tooltip"
+              data-bs-placement="bottom"
+              data-bs-toggle="modal"
+              data-bs-target="#sharingModal"
+              title="Share it!"
+              onclick="shareIt('recipe1.html', 'Peach and passion fruit cake')"
             >
-              share
+              <i class="fa-solid fa-share-nodes"></i>
+            </button>
+          </div>
+        </div>
+    </div>
+  </main>
+  <footer>
+    <br />
+  </footer>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="sharingModal"
+      tabindex="-1"
+      aria-labelledby="sharingModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="sharingModalLabel">Modal title</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">...</div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
             </button>
           </div>
         </div>
       </div>
-      <footer>
-        <br />
-      </footer>
     </div>
   </body>
 </html>
