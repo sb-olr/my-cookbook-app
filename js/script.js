@@ -21,8 +21,8 @@ function alertMe() {
 })();
 
 function shareIt(page = "", name = "") {
-  const htmlMessage = `<h2>Hey!</h2> <h4>Here is a recipe you might like:</h4> <a href='${page}'>${name}</a>`;
-
+  //   const htmlMessage = `<h3>Hey!</h3> <h4>Here is recipe you might like:</h4> <a href='${location.hostname}/${page}'>${name}</a>`;
+  const htmlMessage = `<h2>Hey!</h2> <h4>You are here ${location.hostname} and there are recipes you might like:</h4> <a href='${page}'>${name}</a>`;
   const sharingModal = document.getElementById("sharingModal");
   let modalTitle = sharingModal.querySelector(".modal-title");
   let modalBody = sharingModal.querySelector(".modal-body");
