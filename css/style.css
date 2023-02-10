@@ -50,7 +50,7 @@ main {
 /* Removing gutter (padding space of the columns */
 .row {
   padding: 0;
-  margin-bottom: 1rem;
+
 }
 .col-sm-12 {
   padding: 0;
@@ -106,4 +106,10 @@ div[class^="col"] {
 }
 .fa-brands {
   margin: 0.25rem;
+}
+.breadcrumb{
+  margin: 1rem 0 0 0;
+}
+.breadcrumb a{
+  color: #ffbd59;
 }
