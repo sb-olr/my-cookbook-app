@@ -4,7 +4,7 @@ View dev branch deployment:
 https://sb-olr.github.io/my-cookbook-app/
 
 
-#Team
+# Team
 * Sujit
 * Bao
 * Alvaro
