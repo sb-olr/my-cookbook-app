@@ -1,18 +1,18 @@
 @font-face {
   font-family: "Lobster";
-  src: url(/fonts/Lobster-Regular.ttf) format("truetype");
+  src: url(../fonts/Lobster-Regular.ttf) format("truetype");
 }
 @font-face {
   font-family: "OpenSans-Bold";
-  src: url(/fonts/OpenSans-Bold.ttf) format("truetype");
+  src: url(../fonts/OpenSans-Bold.ttf) format("truetype");
 }
 @font-face {
   font-family: "OpenSans-Light";
-  src: url(/fonts/OpenSans-Light.ttf) format("truetype");
+  src: url(../fonts/OpenSans-Light.ttf) format("truetype");
 }
 @font-face {
   font-family: "OpenSans-Regular";
-  src: url(/fonts/OpenSans-Regular.ttf) format("truetype");
+  src: url(../fonts/OpenSans-Regular.ttf) format("truetype");
 }
 
 h1 {
