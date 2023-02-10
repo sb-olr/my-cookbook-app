@@ -40,3 +40,7 @@ p {
   font-weight: 400;
   color: black;
 }
+.breadcrumb{
+  font-family: "OpenSans-Bold";
+  color: black;
+}
