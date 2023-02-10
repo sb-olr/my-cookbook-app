@@ -22,25 +22,29 @@ h1 {
   color: #c22d22;
   font-weight: bold;
 }
+
 h2 {
   font-family: "OpenSans-Light";
   font-size: 1.75em;
   font-weight: 300;
   color: black;
 }
+
 h4 {
   font-family: "OpenSans-Bold";
   font-size: 1.2em;
   font-weight: 700;
   color: black;
 }
+
 p {
   font-family: "OpenSans-Regular";
   font-size: 1em;
   font-weight: 400;
   color: black;
 }
-.breadcrumb{
+
+.breadcrumb {
   font-family: "OpenSans-Bold";
   color: black;
 }
