@@ -1,6 +1,6 @@
 # My Cookbook App (Magic Muffins)
 
-View dev branch deployment:
+# Deployment url:
 https://sb-olr.github.io/my-cookbook-app/
 
 
@@ -8,4 +8,13 @@ https://sb-olr.github.io/my-cookbook-app/
 * Sujit
 * Bao
 * Alvaro
+
+# Tools used
+
+* HTML
+* CSS
+* Bootstrap 5
+* Figma
+* VSCode
+* Live serve extension
 
