@@ -50,7 +50,7 @@ main {
 /* Removing gutter (padding space of the columns */
 .row {
   padding: 0;
-  margin-bottom: 1rem;
+
 }
 .col-sm-12 {
   padding: 0;
