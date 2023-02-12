@@ -1,6 +1,6 @@
 # My Cookbook App (Magic Muffins)
 
-# Deployment url:
+# Deployment url
 https://sb-olr.github.io/my-cookbook-app/
 
 
@@ -16,5 +16,5 @@ https://sb-olr.github.io/my-cookbook-app/
 * Bootstrap 5
 * Figma
 * VSCode
-* Live serve extension
+* Live server extension
 
